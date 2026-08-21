@@ -30,5 +30,8 @@
     }
   },
 
-  "remoteUser": "vscode"
+  "remoteUser": "vscode",
+    "mounts": [
+    "source=${localWorkspaceFolder}/.devcontainer,target=${containerWorkspaceFolder}/.devcontainer,type=bind,readonly"
+  ]
 }
