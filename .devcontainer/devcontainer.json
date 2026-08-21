@@ -33,5 +33,8 @@
   "remoteUser": "vscode",
     "mounts": [
     "source=${localWorkspaceFolder}/.devcontainer,target=${containerWorkspaceFolder}/.devcontainer,type=bind,readonly"
-  ]
+  ],
+//   "runArgs": [
+//     "--security-opt=no-new-privileges:true"
+// ]
 }

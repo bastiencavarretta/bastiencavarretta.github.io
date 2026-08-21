@@ -10,4 +10,5 @@ RUN rm -f /etc/apt/sources.list.d/yarn.list
 RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
     && apt-get install -y nodejs \
     && npm install -g @anthropic-ai/claude-code \
+    && chown -R vscode:vscode /usr/lib/node_modules /usr/bin/claude \
     && rm -rf /var/lib/apt/lists/*
