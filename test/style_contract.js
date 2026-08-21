@@ -65,7 +65,10 @@ if (/gem 'al_math',\s*:git =>/.test(gemfile)) {
   failures.push("`Gemfile` must not use git-branch pin for `al_math`; use released gem version.");
 }
 
-for (const forbiddenPath of ["_includes", "_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
+// `_sass` is intentionally not in this list: this is a personal site forked from
+// al-folio, not the upstream thin-starter repo, and local `_sass/` overrides are
+// the documented way to customize theme colors in v1.x (see docs/CUSTOMIZE.md).
+for (const forbiddenPath of ["_includes", "_layouts", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
   if (exists(forbiddenPath)) {
     failures.push(`Starter must not own core component path \`${forbiddenPath}\`; move ownership to the corresponding gem.`);
   }
