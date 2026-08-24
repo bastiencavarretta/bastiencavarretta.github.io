@@ -7,7 +7,7 @@ FROM mcr.microsoft.com/devcontainers/jekyll
 RUN rm -f /etc/apt/sources.list.d/yarn.list
 
 # Claude Code
-RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
+RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - \
     && apt-get install -y nodejs \
     && npm install -g @anthropic-ai/claude-code \
     && chown -R vscode:vscode /usr/lib/node_modules /usr/bin/claude \
