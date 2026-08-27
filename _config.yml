@@ -205,8 +205,8 @@ collections:
     defaults:
       layout: post
     output: true
-  projects:
-    output: true
+  # projects:
+  #   output: true
   teachings:
     output: true
   talks:
