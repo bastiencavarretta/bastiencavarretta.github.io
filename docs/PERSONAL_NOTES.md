@@ -6,4 +6,5 @@ The result will appear in `http://localhost:4000/name_of_website//`
 Other parsers `--trace`, `--livereload`
 
 # Converting pdf to png in linux
+
 `pdftoppm -r 150 -png -singlefile <path-to-your-existing-pdf> <desired-path-to-your-png>`
