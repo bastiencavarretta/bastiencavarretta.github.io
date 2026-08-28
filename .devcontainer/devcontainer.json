@@ -34,6 +34,8 @@
     "mounts": [
     "source=${localWorkspaceFolder}/.devcontainer,target=${containerWorkspaceFolder}/.devcontainer,type=bind,readonly"
   ],
+  "postCreateCommand": "sudo chown -R vscode:vscode /usr/local/bundle && sh /usr/local/post-create.sh",
+  "postStartCommand": "sudo chown -R vscode:vscode /usr/local/bundle"
 //   "runArgs": [
 //     "--security-opt=no-new-privileges:true"
 // ]
