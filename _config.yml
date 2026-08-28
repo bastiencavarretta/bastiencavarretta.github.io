@@ -36,7 +36,7 @@ repo_theme_dark: gotham # https://github.com/stats-organization/github-stats-ext
 # `user@host` and no `mailto:` for harvesters to scrape, and clicking one copies
 # it to the clipboard instead of opening a mail client.
 # See "Protecting email addresses from scrapers" in docs/CUSTOMIZE.md.
-protect_email: false
+protect_email: true
 
 # Off by default: the free public github-profile-trophy instance is disabled
 # (its Vercel deployment answers HTTP 402 / DEPLOYMENT_DISABLED), so every trophy
@@ -246,6 +246,8 @@ exclude:
   - package-lock.json
   # - _pages/about_einstein.md
   - _posts/templates/
+  - _teachings/templates/
+  - _teachings/archived/
   - purgecss.config.js
   - README.md
   - _pages/news.md
