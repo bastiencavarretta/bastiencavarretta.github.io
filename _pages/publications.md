@@ -12,9 +12,10 @@ nav_order: 2
 <!-- Bibsearch Feature -->
 
 <!-- Uncomment the following line if many publications, for powerful searchbox -->
-<!-- {% include bib_search.liquid %} --> 
+<!-- {% include bib_search.liquid %} -->
 
 ## Submitted Preprints
+
 <div class="publications">
 
 {% bibliography -f preprints --group_by none %} <!--group_by year-->
