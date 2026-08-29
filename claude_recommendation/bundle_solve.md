@@ -25,7 +25,7 @@ This is a container-permissions bug, not an issue with the al-folio site content
   RUN chown -R vscode:vscode /usr/local/bundle
   ```
   but that chown runs at **image build time**, inside our Dockerfile stage.
-- Dev container **Features** (`ghcr.io/rocker-org/devcontainer-features/apt-packages` installing `ruby-full`, plus `prettier`) are layered **on top of** the Dockerfile as a separate root-run build stage that executes *after* it. That layer touching Ruby/gems as root is the most likely reason ownership of `/usr/local/bundle` reverts to root before the container actually starts and `post-create.sh` runs — so the chown never survives to the moment `bundle install` needs it.
+- Dev container **Features** (`ghcr.io/rocker-org/devcontainer-features/apt-packages` installing `ruby-full`, plus `prettier`) are layered **on top of** the Dockerfile as a separate root-run build stage that executes _after_ it. That layer touching Ruby/gems as root is the most likely reason ownership of `/usr/local/bundle` reverts to root before the container actually starts and `post-create.sh` runs — so the chown never survives to the moment `bundle install` needs it.
 - A stale cached image built before that chown line existed would produce the identical symptom, so it's worth ruling that out too.
 
 ## Fixes
