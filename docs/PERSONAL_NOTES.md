@@ -11,9 +11,7 @@ Other parsers `--trace`, `--livereload`
 
 # Macros in Markdown mathjax
 
-
     ``$$\newcommand{\RR}{\mathbb{R}}
     \newcommand{\norm}[1]{\left\lVert #1 \right\rVert}$$
 
     The space $\RR^n$ with norm $\norm{x}$.''
-    
