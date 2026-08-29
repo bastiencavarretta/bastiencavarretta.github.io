@@ -16,6 +16,7 @@ Other parsers `--trace`, `--livereload`
 
     The space $\RR^n$ with norm $\norm{x}$.''
 
-# Before pushing, always run 
+# Before pushing, always run
+
 `npx prettier . --write`
 This formats the repo to avoid deployment errors on github.
