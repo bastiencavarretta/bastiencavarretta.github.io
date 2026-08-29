@@ -11,9 +11,11 @@ Other parsers `--trace`, `--livereload`
 
 # Macros in Markdown mathjax
 
-
     ``$$\newcommand{\RR}{\mathbb{R}}
     \newcommand{\norm}[1]{\left\lVert #1 \right\rVert}$$
 
     The space $\RR^n$ with norm $\norm{x}$.''
-    
+
+# Before pushing, always run 
+`npx prettier . --write`
+This formats the repo to avoid deployment errors on github.
