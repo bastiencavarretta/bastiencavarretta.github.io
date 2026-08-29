@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://bastiencavarretta.github.io/bastien/bastien/sitemap.xml
+Sitemap: https://bastiencavarretta.github.io/bastien/sitemap.xml
