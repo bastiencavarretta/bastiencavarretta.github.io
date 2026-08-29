@@ -1,0 +1,4 @@
+# _data/latex_macros.yml
+macros:
+  R: '\mathbb{R}'
+  E: '\mathbb{E}'
