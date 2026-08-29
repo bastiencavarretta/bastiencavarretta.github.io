@@ -2,17 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href=https://dauphine.psl.eu/>Université Paris-Dauphine</a>.  
+subtitle: <a href=https://dauphine.psl.eu/>Université Paris-Dauphine</a>.
 
 profile:
   align: right
-  image:  prof_pic.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     bastien.cavarretta@dauphine.psl.eu.
     <p>Office B139 </p>
     <p>Place du Maréchal de Lattre de Tassigny</p>
-    <p>75016, Paris, France</p>  
+    <p>75016, Paris, France</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -29,6 +29,9 @@ latest_posts:
 ---
 
 <!--3rd year PhD Student, supervisor, interests -->
+
 I’m a 3rd year PhD Student in LAMSADE, Université Paris-Dauphine PSL under the supervision of [Clément W. Royer](https://www.lamsade.dauphine.fr/~croyer/) and [Florian Yger](https://scholar.google.com/citations?user=NF_1_38AAAAJ&hl=en).
+
 <!-- add networks -->
+
 **Research Interests:** Continuous Optimization, Derivative-free Optimization, Manifold Constrained Optimization.
