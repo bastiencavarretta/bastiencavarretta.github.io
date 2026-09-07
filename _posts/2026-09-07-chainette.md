@@ -44,7 +44,7 @@ $$
 \end{equation}
 $$
 
-c'est à dire 
+c'est à dire, 
 $$
 \begin{equation}
 \label{eq:ED_PFD} 
@@ -56,7 +56,12 @@ $$\begin{equation} \dot T_z =  \gamma \sqrt{1 + \dot h(x)^2} \end{equation}$$
 On a une equation mais 2 inconnues ; il nous manque donc une equation pour résoudre le problème.
 Mais puisque la corde est sans raideur, cela signifie que la tension est le long de la corde, c'est à dire que $\frac{T_z}{T_0} = \frac{\d h}{\d x} = \dot h$.
 
-On substitue $\dot h$ par cette dernière expression dans l'équation \eqref{eq:ED_PFD}.
+On substitue $\dot h$ par cette dernière expression dans l'équation \eqref{eq:ED_PFD} et on obtient,
+$$
+\begin{equation}
+    \dot T_z = \gamma g \sqrt{1+T_z^2/T_0^2}
+\end{equation}
+$$
  
 
 
