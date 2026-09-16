@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: research
-description: I love cheese and wine. But manifold optimization is tastier.
+description: # Enter funny description here.
 nav: true
 nav_order: 2
 ---
