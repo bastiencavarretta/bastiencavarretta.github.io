@@ -9,4 +9,9 @@ location: Université Paris Dauphine-PSL
 course_id: 2026-optimization-data-science
 ---
 
+- 21/09/2026 - <a href="{{ '/assets/teaching_assets/2026S1-ODS/LabODS-1-GradientMethods.ipynb' | relative_url }}" download>Notebook1</a> on Gradient Methods.
+<!-- & <a href="{{ '/assets/teaching_assets/2026S1-ODS/todo' | relative_url }}" download>Correction</a>  -->
+
+
+
 ---
