@@ -104,9 +104,10 @@ jobs:
 
       - name: Notebooks — rendu HTML + fichier brut
         run: |
-          for nb in assets/jupyter/*.ipynb; do
-            jupyter nbconvert --to html --output-dir "_site/assets/jupyter" "$nb"   
-            cp "$nb" "_site/$nb"                                                  
+          shopt -s globstar nullglob
+          for nb in assets/**/*.ipynb; do
+            jupyter nbconvert --to html --output-dir "_site/$(dirname "$nb")" "$nb"
+            cp "$nb" "_site/$nb"
           done
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
