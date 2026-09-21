@@ -10,7 +10,7 @@ course_id: 2026-optimization-data-science
 ---
 
 - 21/09/2026
-    - <a href="{{ '/assets/jupyter/LabODS-1-GradientMethods.ipynb' | relative_url }}" download>Notebook1</a> on gradient methods <!-- & <a href="{{ '/assets/teaching_assets/2026S1-ODS/todo' | relative_url }}" download>Solution</a>  -->
+    - <a href="{{ '/assets/jupyter/LabODS-1-GradientMethods.ipynb' | relative_url }}" download>Notebook1</a> on Gradient methods <!-- & <a href="{{ '/assets/teaching_assets/2026S1-ODS/todo' | relative_url }}" download>Solution</a>  -->
     - <a href="{{ '/assets/jupyter/LabODS-2-AdvancedGradientMethods.ipynb' | relative_url }}" download>Notebook2</a> on Advanced gradient methods <!-- & <a href="{{ '/assets/teaching_assets/2026S1-ODS/todo' | relative_url }}" download>Solution</a>  -->
 
 - 28/09/2026
