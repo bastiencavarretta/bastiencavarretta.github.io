@@ -12,6 +12,6 @@ course_id: 2025-algebre4_methodes_num
 
 ## Corrections demandées
 
-- <a href="{{ '/assets/teaching_assets/2025S-Algebre4MethodesNumeriques/TP10_correction.ipynb' | relative_url }}" download>Corrigé du TP10</a>
+- <a href="{{ '/assets/teaching/2025S-Algebre4MethodesNumeriques/TP10_correction.ipynb' | relative_url }}" download>Corrigé du TP10</a>
 
 ---
