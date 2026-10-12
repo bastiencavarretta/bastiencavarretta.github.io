@@ -10,11 +10,11 @@ course_id: 2026-optimization-data-science
 ---
 
 - 21/09/2026
-    - <a href="{{ '/assets/teaching/2026S1-ODS/LabODS-1-GradientMethods.ipynb' | relative_url }}" download>Lab1</a> on Gradient methods.  <a href="{{ '/assets/teaching/2026S1-ODS/LabODS-1-GradientMethods_Correction.ipynb' | relative_url }}" download>Lab1 Correction</a>.
+    - <a href="{{ '/assets/teaching/2026S1-ODS/LabODS-1-GradientMethods.ipynb' | relative_url }}" download>Lab</a> on Gradient methods.  <a href="{{ '/assets/teaching/2026S1-ODS/LabODS-1-GradientMethods_Correction.ipynb' | relative_url }}" download>Correction</a>.
     - <a href="{{ '/assets/teaching/2026S1-ODS/LabODS-2-AdvancedGradientMethods.ipynb' | relative_url }}" download>Illustration</a> of Advanced gradient methods.
 
 - 28/09/2026
-    - <a href="{{ '/assets/teaching/2026S1-ODS/LabODS-3-StochasticGradient.ipynb' | relative_url }}" download>Lab2</a> on Stochastic Gradient methods. <a href="{{ '/assets/teaching/2026S1-ODS/LabODS-3-StochasticGradient.ipynb' | relative_url }}" download>Lab2 Correction</a>.
+    - <a href="{{ '/assets/teaching/2026S1-ODS/LabODS-3-StochasticGradient.ipynb' | relative_url }}" download>Lab</a> on Stochastic Gradient methods. <a href="{{ '/assets/teaching/2026S1-ODS/LabODS-3-StochasticGradient.ipynb' | relative_url }}" download>Correction</a>.
 
 - 09/11/2026
 
