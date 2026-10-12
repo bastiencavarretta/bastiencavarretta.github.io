@@ -11,7 +11,7 @@ profile:
   more_info: >
     bastien.cavarretta@dauphine.psl.eu.
     <p>Office B139 </p>
-    <p>Place du Maréchal de Lattre de Tassigny</p>
+    <p>Place du Maréchal-de-Lattre-de-Tassigny</p>
     <p>75016, Paris, France</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
