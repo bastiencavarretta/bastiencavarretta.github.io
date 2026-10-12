@@ -199,9 +199,9 @@ newsletter:
 collections:
   books:
     output: true
-  # news:
-  #   defaults:
-  #     layout: post
+  news:
+    defaults:
+      layout: post
   #   output: true
   teachings:
     output: true
@@ -249,7 +249,7 @@ exclude:
   - purgecss.config.js
   - README.md
   # - _pages/news.md
-  - _news/announcement_*.md #exclude all news announcements
+  - _news/announcement_*.md #exclude all news announcements templates
   # - _news/ # exclude all news
   - _talks/
   - readme_preview/
