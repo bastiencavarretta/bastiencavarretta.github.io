@@ -14,12 +14,12 @@ nav_order: 2
 <!-- Uncomment the following line if many publications, for powerful searchbox -->
 <!-- {% include bib_search.liquid %} -->
 
-## Submitted Preprints
+## Publications
 
 <div class="publications">
 
-{% bibliography -f preprints --group_by none %} <!--group_by year-->
+{% bibliography -f publications --group_by none %} <!--group_by year-->
 
 </div>
 
-<!-- If desired, create "Publication" header and copy-paste the previous division, replacing `preprints` by `publications. -->
+<!-- If desired, create "Submitted Preprints" header and copy-paste the previous division, replacing `publications` by `preprints`. -->
