@@ -16,6 +16,10 @@ course_id: 2026-optimization-data-science
 - 28/09/2026
     - <a href="{{ '/assets/teaching/2026S1-ODS/LabODS-3-StochasticGradient.ipynb' | relative_url }}" download>Lab</a> on Stochastic Gradient methods. <a href="{{ '/assets/teaching/2026S1-ODS/LabODS-3-StochasticGradient.ipynb' | relative_url }}" download>Correction</a>.
 
-- 09/11/2026
+- 09/11/2026: Project
+  -  <a href="{{ 'assets/teaching/2026S1-ODS/Project/Enonce_ODS_2026-2027.pdf' | relative_url }}" download>Here</a> is the project handout, and <a href="{{ 'assets/teaching/2026S1-ODS/Project/Notebook_ODS_2026-2027.ipynb' | relative_url }}" download>here</a> the corresponding notebook.
+  -  During this course, you can ask questions about the previous lab sessions, or the course, but I will not answer questions related to the project.
+  - The report and corresponding notebook must be sent by email at `bastien.cavarretta@dauphine.psl.eu` before **Monday, December 7th, 11:59pm**
+
 
 ---
