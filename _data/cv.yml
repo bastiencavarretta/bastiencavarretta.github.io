@@ -19,7 +19,6 @@ cv:
 
   sections:
     Education:
-
       - institution: Université Paris-Saclay
         location: Gif-sur-Yvette, France
         url: https://www.master-in-optimization.fr/
@@ -47,28 +46,27 @@ cv:
       - institution: Université Paris-Saclay
         location: Gif-sur-Yvette, France
         url: https://www.universite-paris-saclay.fr/
-        area: 
+        area:
         studyType: M. Sc. Mathematics
         start_date: 2020
         end_date: 2021
         score: ""
         courses: ""
         highlights:
-        - "The classics: Analysis, Algebra, Probabilities"
-        - Algebraic topology and Differential Geometry
-        - Spectral theory and harmonic analysis
-        - Mathematical statistics and machine learning
-        - "Social and communication networks: probabilistic models and algorithms."
-
+          - "The classics: Analysis, Algebra, Probabilities"
+          - Algebraic topology and Differential Geometry
+          - Spectral theory and harmonic analysis
+          - Mathematical statistics and machine learning
+          - "Social and communication networks: probabilistic models and algorithms."
 
       - institution: ENS Paris-Saclay
         location: Gif-sur-Yvette, France
         url: https://ens-paris-saclay.fr/
-        area: 
+        area:
         studyType: B. Sc. Mathematics
         start_date: 2019
         end_date: 2020
-        courses: 
+        courses:
           - Differential calculus
           - Integration and probabilities
           - Fourier and Hilbert analysis
@@ -76,8 +74,6 @@ cv:
           - Numerical analysis of ODEs
           - "Tiny Courses: General topology, Statistics, and Numerical linear algebra"
 
-
-      
       - institution: Lycée Descartes & Lycée du Parc
         location: Tours & Lyon, France
         url: https://www.lyc-descartes.fr/ & https://lyceeduparc.fr/
@@ -86,14 +82,11 @@ cv:
         start_date: 2016
         end_date: 2019
         score: ""
-       
-          
-#           Calcul différentiel, Topologie, Algèbre linéaire numérique, Analyse complexe, Méthodes d’ap-
-# proximations des EDP, Analyse numérique des EDO, Algèbre, Analyse de Fourier et de Hilbert,
-# Intégration et probabilités, Introduction aux statistiques, Module d’ouverture en mécanique
-# quantique
 
-
+    #           Calcul différentiel, Topologie, Algèbre linéaire numérique, Analyse complexe, Méthodes d’ap-
+    # proximations des EDP, Analyse numérique des EDO, Algèbre, Analyse de Fourier et de Hilbert,
+    # Intégration et probabilités, Introduction aux statistiques, Module d’ouverture en mécanique
+    # quantique
 
     Experience:
       - company: Institute for Advanced Study, Princeton University
